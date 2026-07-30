@@ -9,10 +9,10 @@
 | Attribute | Details & Metrics |
 | :--- | :--- |
 | 🔢 **Problem Number** | **N/A** |
-| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/two-sum/submissions/1918530217/) |
+| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/two-sum/submissions/2087370535/) |
 | 🎯 **Difficulty Level** | **Easy** |
-| ⏱️ **Runtime Performance** | `39 ms` |
-| 💾 **Memory Footprint** | `14.1 MB` |
+| ⏱️ **Runtime Performance** | `0 ms` |
+| 💾 **Memory Footprint** | `O(N) Memory Space` |
 | 🏷️ **Topic Classification** | `Array` `Hash Table` |
 | 📅 **Date Solved** | `2026-07-30` |
 
@@ -70,7 +70,20 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comp
 ## 💻 Complete Solution Source Code (`cpp`)
 
 ```cpp
-c
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        for(int i=0;i<nums.size();i++){
+            for(int j=i+1;j<nums.size();j++)
+            if(nums[i]+nums[j]==target){
+                return {i,j};
+            }
+
+        }
+        return {};
+        
+    }
+};
 
 ```
 
