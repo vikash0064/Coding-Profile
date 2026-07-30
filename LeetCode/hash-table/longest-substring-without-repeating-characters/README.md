@@ -8,7 +8,7 @@
 
 | Attribute | Details |
 | :--- | :--- |
-| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2087362053/) |
 | 🎯 **Difficulty** | **Medium** |
 | ⏱️ **Runtime** | `N/A` |
 | 💾 **Memory Usage** | `N/A` |
