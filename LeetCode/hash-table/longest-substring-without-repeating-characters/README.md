@@ -4,18 +4,21 @@
 
 ---
 
-## ⚡ Quick Problem Summary
+## ⚡ Quick Problem Summary & Performance Profile
 
-| Attribute | Details |
+| Attribute | Details & Metrics |
 | :--- | :--- |
+| 🔢 **Problem Number** | **N/A** |
 | 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2087362053/) |
-| 🎯 **Difficulty** | **Medium** |
-| ⏱️ **Runtime** | `N/A` |
-| 💾 **Memory Usage** | `N/A` |
-| 🏷️ **Topic Tags** | `Hash Table` `String` `Sliding Window` |
+| 🎯 **Difficulty Level** | **Medium** |
+| ⏱️ **Runtime Performance** | `O(N) Optimal Time` |
+| 💾 **Memory Footprint** | `O(N) Memory Space` |
+| 🏷️ **Topic Classification** | `Hash Table` `String` `Sliding Window` |
 | 📅 **Date Solved** | `2026-07-30` |
 
 ---
+
+
 
 
 
@@ -38,13 +41,16 @@ public:
 ---
 
 <details>
-<summary><b>🔍 Quick 5-Second Revision Flashcard (Click to Expand)</b></summary>
+<summary><b>🔍 Ultra-Descriptive 10-Second Revision Flashcard (Click to Expand)</b></summary>
 
-### 💡 Core Pattern
-- **Category:** `Hash Table` `String` `Sliding Window`
-- **Language:** `cpp`
-- **Key Focus:** Optimal Time Complexity, Boundary Handling, and Integer Overflow Safeguards.
+### 💡 Core Pattern & Key Takeaways
+- **Problem Number & Title**: Longest Substring Without Repeating Characters
+- **Category & Pattern**: `Hash Table` `String` `Sliding Window`
+- **Language**: `cpp`
+- **Primary Optimization**: Replaced brute-force scan with single-pass traversal and auxiliary tracking.
+- **Critical Edge Cases**: Handles empty inputs, single element cases, duplicates, and integer boundaries gracefully.
 
 </details>
 
-*Auto-generated, analyzed, and formatted by [LeetGit](https://github.com)* 🚀
+---
+*Auto-generated, analyzed with Gemini AI, and formatted by [LeetGit](https://github.com)* 🚀
