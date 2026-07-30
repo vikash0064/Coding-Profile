@@ -8,7 +8,7 @@
 
 | Metric | Value |
 | :--- | :--- |
-| 🔗 **Problem Link** | [View on LeetCode](https://leetcode.com/problems/reverse-integer/submissions/2087350430/) |
+| 🔗 **Problem Link** | [View on LeetCode](https://leetcode.com/problems/reverse-integer/) |
 | 🎯 **Difficulty** | **Medium** |
 | ⏱️ **Runtime** | `N/A` |
 | 💾 **Memory Usage** | `N/A` |
