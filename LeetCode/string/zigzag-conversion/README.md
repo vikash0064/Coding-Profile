@@ -9,10 +9,10 @@
 | Attribute | Details & Metrics |
 | :--- | :--- |
 | 🔢 **Problem Number** | **N/A** |
-| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/submissions/2054540789/) |
+| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/submissions/2088154025/) |
 | 🎯 **Difficulty Level** | **Medium** |
-| ⏱️ **Runtime Performance** | `6 ms` |
-| 💾 **Memory Footprint** | `14.1 MB` |
+| ⏱️ **Runtime Performance** | `O(N) Optimal Time` |
+| 💾 **Memory Footprint** | `O(N) Memory Space` |
 | 🏷️ **Topic Classification** | `String` |
 | 📅 **Date Solved** | `2026-07-31` |
 
@@ -77,7 +77,28 @@ Constraints:
 ## 💻 Complete Solution Source Code (`cpp`)
 
 ```cpp
-c
+        for (char ch : s) {
+            rows[currentRow] += ch;
+
+            if (currentRow == 0)
+                goingDown = true;
+            else if (currentRow == numRows - 1)
+                goingDown = false;
+
+            if (goingDown)
+                currentRow++;
+            else
+                currentRow--;
+        }
+
+        string ans = "";
+
+        for (string row : rows)
+            ans += row;
+
+        return ans;
+    }
+};
 
 ```
 
