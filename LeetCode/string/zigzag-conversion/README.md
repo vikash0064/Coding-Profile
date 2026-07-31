@@ -9,10 +9,10 @@
 | Attribute | Details & Metrics |
 | :--- | :--- |
 | 🔢 **Problem Number** | **N/A** |
-| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/description/) |
+| 🔗 **Problem Link** | [View Full Problem on LeetCode](https://leetcode.com/problems/zigzag-conversion/submissions/2054540789/) |
 | 🎯 **Difficulty Level** | **Medium** |
-| ⏱️ **Runtime Performance** | `O(N) Optimal Time` |
-| 💾 **Memory Footprint** | `O(N) Memory Space` |
+| ⏱️ **Runtime Performance** | `6 ms` |
+| 💾 **Memory Footprint** | `14.1 MB` |
 | 🏷️ **Topic Classification** | `String` |
 | 📅 **Date Solved** | `2026-07-31` |
 
@@ -38,7 +38,6 @@ string convert(string s, int numRows);
 
 
  
-
 Example 1:
 
 Input: s = "PAYPALISHIRING", numRows = 3
@@ -63,12 +62,12 @@ Output: "A"
 
 
  
-
 Constraints:
 
-1 <= s.length <= 1000
-s consists of English letters (lower-case and upper-case), ',' and '.'.
-1 <= numRows <= 1000
+
+	1 <= s.length <= 1000
+	s consists of English letters (lower-case and upper-case), ',' and '.'.
+	1 <= numRows <= 1000
 
 ---
 
@@ -78,12 +77,7 @@ s consists of English letters (lower-case and upper-case), ',' and '.'.
 ## 💻 Complete Solution Source Code (`cpp`)
 
 ```cpp
-class Solution {
-public:
-    string convert(string s, int numRows) {
-        
-    }
-};
+c
 
 ```
 
